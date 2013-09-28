@@ -65,7 +65,8 @@ map <silent> <F3> :if &guioptions =~# 'T' <Bar>
 map <silent> <F2> :NERDTreeToggle <CR> "F2开启nerdtree
 set nobackup "不要备份
 set clipboard+=unnamed "共用系统剪贴板
-execute pathogen#infect() "开启pathogen插件
+"开启pathogen插件
+execute pathogen#infect()
 ""powerline config
 set t_Co=256
 set laststatus=2
